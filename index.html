@@ -101,6 +101,7 @@
             </div>
         </div>
     </section>
+    
     <!--Contact-btn------------------>
     <section id="contact-btn">
         <!--heading-------------->
@@ -147,9 +148,10 @@
     <script type="text/javascript">
     $(document).ready(function(){
         $('.toggle').click(function(){
-            $('toggle').toggleClass('active')
+            $('.toggle').toggleClass('active')
+            $('nav ul').toggleClass('active-menu')
         })
-    })
+    });
     </script>
     
 </body>

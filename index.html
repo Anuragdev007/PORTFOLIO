@@ -1,0 +1,157 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Perosnal Portfolio Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-icon--------->
+    <link rel="shortcut icon" href="images/heart.png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--using FontAwesome---------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--main------------------------>
+    <section id="main">
+        <!--navigation-------------------------------->
+        <nav>
+            <!--logo--->
+            <a href="#" class="logo">MORNIGSTAR</a>
+            <!--menu--------->
+            <div class="toggle"></div>
+            <ul class="menu">
+                <li class="active"><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+            <!--language-->
+            <a href="#" class="lang">En</a>
+        </nav>
+        <!--name--------------------------->
+        <div class="name">
+            <!--hello------->
+            <p>Hello</p>
+            <!--name--->
+            <h1>I'm <font color="#17d1ac">Anurag</font> Bhardwaj</h1>
+            <!--details--------------->
+            <p class="details">I'm a freelancer frontend Developer.This is my portfolio to introduce my work Thanku!</p>
+            <!--cv button-------------------->
+            <a href="#" class="cv-btn">Download Cv</a>
+
+
+        </div>
+        <!--down arrow-------------->
+        <div class="black-line"></div>
+        <!--social---------------->
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+    </section>
+    <!--about----------------------->
+    <section id="about">
+        <!--text---------------------->
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h2>FreeLancing FrontEnd Developer</h2>
+            <p>Basically I'm a Frontend Devloper And Android User Interface Developer.I will ensure you to provide the latest and user friedly stuff.My work will never let you down .It will be the Best </p>
+            <button>View More Details</button>
+        </div>
+        <!--about-model----------------->
+        <div class="about-model">
+            <img alt="model" src="images/model.png" />
+        </div>
+
+
+    </section>
+    <!--services-------------------->
+    <section id="services">
+
+
+        <div class="s-heading">
+            <h1>Services</h1>
+            <p>This are Some Services That I Provide TO You! Enjoy</p>
+        </div>
+        <div class="s-b-container">
+            <div class="s-box">
+                <div class="s-b-img">
+                    <div class="s-type">Front-End</div>
+                    <img src="images/frontend.png">
+                </div>
+                <div class="s-b-text">
+                    <a href="#">In this section i will design and devlope a fully responsive website for yor work.which will allow you to serve the best user </a>
+                </div>
+            </div>
+            <div class="s-box">
+                <div class="s-b-img">
+                    <div class="s-type">Android</div>
+                    <img src="images/android.png">
+                </div>
+                <div class="s-b-text">
+                    <a href="#">In this section i will devlope a fully function single and multipage android app.which will support all the latest technology</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact-btn------------------>
+    <section id="contact-btn">
+        <!--heading-------------->
+        <h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
+        <!--btn-------->
+        <button><a href="Contact US.html">Contact Me</a></button>
+    </section>
+    <!--contact-form------------------->
+    <section id="contact-form">
+        <form>
+            <!--left--------------------------------------->
+            <div class="contact-left">
+                <h1 class="c-l-heading">
+                    <font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us
+                </h1>
+                <!--name-------->
+                <div class="f-name">
+                    <font>Name</font>
+                    <input type="text" placeholder="Full Name" />
+                </div>
+                <!--email-------->
+                <div class="f-email">
+                    <font>Email</font>
+                    <input type="email" placeholder="Example@gmail.com" />
+                </div>
+            </div>
+            <!--right------------------------------------------->
+            <div class="contact-right">
+                <!--message-------->
+                <div class="message">
+                    <font>Message</font>
+                    <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+                </div>
+                <!--submit-btn------------>
+                <button>submit</button>
+            </div>
+
+        </form>
+
+    </section>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('toggle').toggleClass('active')
+        })
+    })
+    </script>
+    
+</body>
+
+</html>
